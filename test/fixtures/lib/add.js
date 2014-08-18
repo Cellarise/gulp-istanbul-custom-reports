@@ -1,9 +1,11 @@
-'use strict';
+/* jslint node: true */
+"use strict";
+
 
 exports.add = function (a, b) {
-  return a + b;
+    return a + b;
 };
 
 exports.missed = function () {
-  return "not covered";
+    return "not covered";
 };

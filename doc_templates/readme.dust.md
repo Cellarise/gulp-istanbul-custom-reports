@@ -1,9 +1,9 @@
-# gulp-istanbul-custom-reports
-[![view on npm](http://img.shields.io/npm/v/gulp-istanbul-custom-reports.svg)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
-[![npm module downloads per month](http://img.shields.io/npm/dm/gulp-istanbul-custom-reports.svg)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
-[![Dependency Status](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports.svg)](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports)
+# {name}
+[![view on npm](http://img.shields.io/npm/v/{name}.svg)](https://www.npmjs.org/package/{name})
+[![npm module downloads per month](http://img.shields.io/npm/dm/{name}.svg)](https://www.npmjs.org/package/{name})
+[![Dependency Status](https://david-dm.org/Cellarise/{name}.svg)](https://david-dm.org/Cellarise/{name})
 
-> Forked from SBoudrias/gulp-Istanbul - Istanbul unit test coverage plugin for gulp with the ability to register custom Istanbul report implementation.
+> {description}
 
 
 
