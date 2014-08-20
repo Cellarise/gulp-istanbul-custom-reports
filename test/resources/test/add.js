@@ -1,7 +1,6 @@
 /* jslint node: true */
 "use strict";
 
-
 var assert = require('assert');
 var mod = require('../lib/add');
 

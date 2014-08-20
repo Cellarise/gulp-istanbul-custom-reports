@@ -13,7 +13,7 @@ Installation
 ---------------
 
 ```shell
-npm install --save-dev gulp-istanbul
+npm install --save-dev gulp-istanbul-custom-reports
 ```
 
 Example
@@ -22,7 +22,7 @@ Example
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var istanbul = require('gulp-istanbul');
+var istanbul = require('gulp-istanbul-custom-reports');
 var mocha = require('gulp-mocha'); // Using mocha here, but any test framework will work
 
 gulp.task('test', function (cb) {
