@@ -3,20 +3,16 @@
 "use strict";
 
 var Yadda = require('yadda');
-var path = require('path');
-var context = {
-    assert: require('assert'),
-    world: {},
-    paths: {
-        features: './unit/',
-        steps: './unit/'
-    }
-}; //interpreter context - global
+var context = { world: {} }; //interpreter context - global
+var cwd = process.cwd();
+var directories = require(cwd + '/package.json').directories;
+var testFeatures = cwd + '/test/unit/';
+var testSteps = cwd + '/test/unit/';
 
 //helper function to prepare multiple libraries for loading into the yadda interpreter
 function require_libraries(libraries) {
     function require_library(libraries, library) {
-        return libraries.concat(require(path.join(__dirname, context.paths.steps)+ library));
+        return libraries.concat(require(testSteps + library));
     }
     return libraries.reduce(require_library, []);
 }
@@ -25,7 +21,7 @@ function require_libraries(libraries) {
 Yadda.plugins.mocha.AsyncStepLevelPlugin.init();
 
 //execute all unit test feature files
-new Yadda.FeatureFileSearch([path.join(__dirname, context.paths.features)]).each(function(file) {
+new Yadda.FeatureFileSearch([testFeatures]).each(function(file) {
 
     featureFile(file, function(feature) {
         var loaded_libraries,
