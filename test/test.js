@@ -18,7 +18,7 @@ function require_libraries(libraries) {
 }
 
 //attach yadda functions like featureFile to this object
-Yadda.plugins.mocha.AsyncStepLevelPlugin.init();
+Yadda.plugins.mocha.StepLevelPlugin.init();
 
 //execute all unit test feature files
 new Yadda.FeatureFileSearch([testFeatures]).each(function(file) {

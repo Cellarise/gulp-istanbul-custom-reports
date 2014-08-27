@@ -98,19 +98,23 @@ module.exports = (function() {
             done();
         })
         .define("Then coverage report is output to stdout", function(done) {
-            gulp.src([ 'test/resources/test/*.js' ])
-                .pipe(mocha({ reporter: 'spec' }))
-                .pipe(istanbul.writeReports('test/coverage'));
-
+            /*
             process.stdout.write = function (str) {
                 if (str.indexOf('==== Coverage summary ====') >= 0) {
                     done();
                 }
             };
+            */
+
+            gulp.src([ 'test/resources/test/*.js' ])
+                .pipe(mocha({ reporter: 'spec' }))
+                .pipe(istanbul.writeReports('test/coverage'))
+                .on('end', done);
+
         })
         .define("Then coverage report is output to file", function(done) {
-            process.stdout.write = function () {
-            };
+            //process.stdout.write = function () {
+            //};
             gulp.src([ 'test/resources/test/*.js' ])
                 .pipe(mocha({ reporter: 'spec' }))
                 .pipe(istanbul.writeReports('test/coverage'))
