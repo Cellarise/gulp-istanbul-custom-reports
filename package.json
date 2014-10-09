@@ -1,6 +1,6 @@
 {
   "name": "gulp-istanbul-custom-reports",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Forked from SBoudrias/gulp-Istanbul - Istanbul unit test coverage plugin for gulp with the ability to register custom Istanbul report implementation.",
   "keywords": ["gulpplugin", "coverage", "istanbul", "unit test"],
   "author": "John Barry",
@@ -16,7 +16,7 @@
     "gulp-util": "^3.0.0",
     "istanbul": "^0.3.0",
     "lodash": "^2.4.1",
-    "through2": "^0.6.1"
+    "through2": "^0.6.2"
   },
   "license": "MIT License (MIT)",
   "publishConfig": {
@@ -55,8 +55,8 @@
         }
       }
     },
-    "build": "25",
-    "buildTimestamp": "2014-10-09T21:08:36.743+10:00"
+    "build": "27",
+    "buildTimestamp": "2014-10-09T22:58:31.396+10:00"
   },
   "directories": {
     "lib": "lib",
