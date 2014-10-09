@@ -2,7 +2,7 @@
 [![view on npm](http://img.shields.io/npm/v/gulp-istanbul-custom-reports.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
 [![npm module downloads per month](http://img.shields.io/npm/dm/gulp-istanbul-custom-reports.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
 [![Dependency status](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports.svg?style=flat)](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports)
-[![Coverage](https://img.shields.io/badge/coverage-0%25_skipped:0%25-red.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
+[![Coverage](https://img.shields.io/badge/coverage-92%25_skipped:0%25-green.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
 
 > Forked from SBoudrias/gulp-Istanbul - Istanbul unit test coverage plugin for gulp with the ability to register custom Istanbul report implementation.
 
@@ -215,6 +215,18 @@ License
     <th style="width:80px;text-align:left;">ID</th>
     <th style="text-align:left;">Summary</th>
    </tr>
+
+  <tr>
+    <td colspan=4><strong>Version: 0.1.6 - released 2014-10-09</strong></td>
+   </tr>
+
+  <tr>
+    <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td> 
+    <td style="width:80px;text-align:center;">Non-functional</td> 
+    <td style="width:80px;text-align:left;">MDGULIST-8</td>
+    <td>Package: Fix code-coverage reporting error on readme.md</td>
+   </tr>
+
 
   <tr>
     <td colspan=4><strong>Version: 0.1.5 - released 2014-10-09</strong></td>
