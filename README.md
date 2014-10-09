@@ -1,7 +1,8 @@
 # gulp-istanbul-custom-reports
-[![view on npm](http://img.shields.io/npm/v/gulp-istanbul-custom-reports.svg)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
-[![npm module downloads per month](http://img.shields.io/npm/dm/gulp-istanbul-custom-reports.svg)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
-[![Dependency Status](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports.svg)](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports)
+[![view on npm](http://img.shields.io/npm/v/gulp-istanbul-custom-reports.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
+[![npm module downloads per month](http://img.shields.io/npm/dm/gulp-istanbul-custom-reports.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
+[![Dependency status](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports.svg?style=flat)](https://david-dm.org/Cellarise/gulp-istanbul-custom-reports)
+[![Coverage](https://img.shields.io/badge/coverage-92%25_skipped:0%25-green.svg?style=flat)](https://www.npmjs.org/package/gulp-istanbul-custom-reports)
 
 > Forked from SBoudrias/gulp-Istanbul - Istanbul unit test coverage plugin for gulp with the ability to register custom Istanbul report implementation.
 
@@ -201,12 +202,75 @@ License
 
 
 # API
+
 *documented by [jsdoc-to-markdown](https://github.com/75lb/jsdoc-to-markdown)*.
+
+
+#Changelog
+
+<table style="width:100%;border-spacing:0px;border-collapse:collapse;margin:0px;padding:0px;border-width:0px;">
+   <tr>
+    <th style="width:20px;text-align:center;"></th>
+    <th style="width:80px;text-align:center;">Type</th> 
+    <th style="width:80px;text-align:left;">ID</th>
+    <th style="text-align:left;">Summary</th>
+   </tr>
+
+  <tr>
+    <td colspan=4><strong>Version: 0.1.4 - released 2014-10-09</strong></td>
+   </tr>
+
+  <tr>
+    <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td> 
+    <td style="width:80px;text-align:center;">Non-functional</td> 
+    <td style="width:80px;text-align:left;">MDGULIST-6</td>
+    <td>Package: Update package dependencies</td>
+   </tr>
+
+
+  <tr>
+    <td colspan=4><strong>Version: 0.1.3 - released 2014-08-28</strong></td>
+   </tr>
+
+  <tr>
+    <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td> 
+    <td style="width:80px;text-align:center;">Non-functional</td> 
+    <td style="width:80px;text-align:left;">MDGULIST-5</td>
+    <td>Package: Update dependencies.</td>
+   </tr>
+
+
+  <tr>
+    <td colspan=4><strong>Version: 0.1.2 - released 2014-08-27</strong></td>
+   </tr>
+
+  <tr>
+    <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td> 
+    <td style="width:80px;text-align:center;">Non-functional</td> 
+    <td style="width:80px;text-align:left;">MDGULIST-4</td>
+    <td>Package: Migrate to new Cellarise Package Manager.</td>
+   </tr>
+
+
+  <tr>
+    <td colspan=4><strong>Version: 0.1.1 - released 2014-08-20</strong></td>
+   </tr>
+
+  <tr>
+    <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10411&amp;avatarType=issuetype'/></td> 
+    <td style="width:80px;text-align:center;">Feature</td> 
+    <td style="width:80px;text-align:left;">MDGULIST-2</td>
+    <td>Package: Add register report function.</td>
+   </tr>
+
+
+</table>
+
 
 
 # License
 
-MIT License (MIT)
+MIT License (MIT). All rights not explicitly granted in the license are reserved.
 
 Copyright (c) 2014 John Barry
 
