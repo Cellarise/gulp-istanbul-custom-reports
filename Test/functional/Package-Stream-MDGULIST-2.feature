@@ -4,7 +4,7 @@ Feature: Package: Add register report function.
   So that I can define custom coverage report outputs
 
   @Pending
-  Scenario: 
+  Scenario:
 
     Given
     When
