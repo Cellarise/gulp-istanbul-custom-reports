@@ -59,6 +59,7 @@ module.exports = (function testSuite() {
     .define("Given files have been instrumented and tests run", function test(done) {
       gulp.src(["Test_Resources/resources/lib/*.js"])
         .pipe(istanbul())
+        .pipe(istanbul.hookRequire())
         .on("finish", function onFinish() {
           process.stdout.write = function stdoutWrite() {
           };

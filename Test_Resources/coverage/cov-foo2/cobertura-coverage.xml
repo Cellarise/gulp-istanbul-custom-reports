@@ -1,25 +1,25 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="4"  lines-covered="3"  line-rate="0.75"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1422367561020" complexity="0" version="0.1">
+<coverage lines-valid="4"  lines-covered="3"  line-rate="0.75"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1432076105809" complexity="0" version="0.1">
 <sources>
-	<source>C:\bamboo\SRC\131073\CELLARISE-MDGULIST-JOB1</source>
+	<source>C:\bamboo\SRC\24772609\CELLARISE-MDGULIST-JOB1</source>
 </sources>
 <packages>
 	<package name="lib"  line-rate="0.75"  branch-rate="1" >
 	<classes>
 		<class name="add.js"  filename="Test_Resources\resources\lib\add.js"  line-rate="0.75"  branch-rate="1" >
 		<methods>
-			<method name="(anonymous_1)"  hits="1"  signature="()V" >
-				<lines><line number="4"  hits="1" /></lines>
+			<method name="(anonymous_1)"  hits="7"  signature="()V" >
+				<lines><line number="4"  hits="7" /></lines>
 			</method>
 			<method name="(anonymous_2)"  hits="0"  signature="()V" >
 				<lines><line number="8"  hits="0" /></lines>
 			</method>
 		</methods>
 		<lines>
-			<line number="4"  hits="1"  branch="false" />
-			<line number="5"  hits="1"  branch="false" />
-			<line number="8"  hits="1"  branch="false" />
+			<line number="4"  hits="7"  branch="false" />
+			<line number="5"  hits="7"  branch="false" />
+			<line number="8"  hits="7"  branch="false" />
 			<line number="9"  hits="0"  branch="false" />
 		</lines>
 		</class>
